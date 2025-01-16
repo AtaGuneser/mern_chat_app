@@ -1,8 +1,11 @@
+import Login from './pages/login/Login'
+import SignUp from './pages/signup/SignUp'
+
 export default function App () {
   return (
-    <div>
-      <h1 className='text-3xl font-bold underline'>Hello world!</h1>
-      <button className='btn btn-primary'>Primary</button>
+    <div className='p-4 h-screen flex items-center justify-center'>
+      <Login />
+      <SignUp />
     </div>
   )
 }
