@@ -1,4 +1,4 @@
-import { FaSearch } from 'react-icons/fa'
+import { IoSearchSharp } from 'react-icons/io5'
 
 const SearchInput = () => {
   return (
@@ -9,7 +9,7 @@ const SearchInput = () => {
         className='input input-bordered rounded-full'
       />
       <button className='btn btn-circle bg-sky-500 text-white'>
-        <FaSearch />
+        <IoSearchSharp className='w-6 h-6 outline-none' />
       </button>
     </form>
   )
