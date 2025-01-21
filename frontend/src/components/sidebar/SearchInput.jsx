@@ -1,3 +1,5 @@
+import { FaSearch } from 'react-icons/fa'
+
 const SearchInput = () => {
   return (
     <form action='' className='flex items-center gap-2'>
@@ -7,7 +9,7 @@ const SearchInput = () => {
         className='input input-bordered rounded-full'
       />
       <button className='btn btn-circle bg-sky-500 text-white'>
-        <i className='fa-solid fa-magnifying-glass'></i>
+        <FaSearch />
       </button>
     </form>
   )
