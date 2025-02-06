@@ -11,8 +11,12 @@ const Conversations = () => {
       ) : conversations.length === 0 ? (
         <p className='text-center text-gray-500'>No conversations found</p>
       ) : (
-        conversations.map(conversation => (
-          <Conversation key={conversation.id} conversation={conversation} />
+        conversations.map((conversation, idx) => (
+          <Conversation
+            key={conversation.id}
+            conversation={conversation}
+            lastIdx={idx === conversations.length - 1}
+          />
         ))
       )}
     </div>
