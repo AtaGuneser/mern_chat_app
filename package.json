@@ -17,7 +17,7 @@
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
     "mern_chat_app": "file:",
-    "mongoose": "^8.9.3",
+    "mongoose": "^8.9.4",
     "socket.io": "^4.8.1"
   },
   "devDependencies": {
